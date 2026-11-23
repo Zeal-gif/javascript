@@ -1,3 +1,5 @@
-for (let i = 1; i <= 7; i++){
-	console.log("#" .repeat(i));
+let star = " ";
+for (let number = 1; number <= 7; number++){
+	star += "#";
+	console.log(star);
 	}
